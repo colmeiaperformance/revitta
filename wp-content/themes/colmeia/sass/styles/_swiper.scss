@@ -1,0 +1,27 @@
+.swiper {
+    .arrows-left {
+        li {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        & li:last-child::before {
+            left: 5rem;
+        }
+        & li:last-child::before {
+            right: 5rem;
+        }
+    }
+    .arrows-right {
+        li {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        & li:first-child::before {
+            left: 5rem;
+        }
+        & li:first-child::before {
+            right: 5rem;
+        }
+    }
+    
+}

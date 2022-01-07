@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "file-header.scss"
+    ],
+    "names": [],
+    "file": "file-header.min.css"
+}

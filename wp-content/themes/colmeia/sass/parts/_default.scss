@@ -1,0 +1,21 @@
+/*
+//////////////////
+////CLEAR RESET//
+////////////////
+*/
+
+*, *:before, *:after { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	word-spacing: normal; 
+}
+html, body { 
+	font-size: 10px; 
+	overflow-x: hidden;
+}
+article, aside, div, footer, header, hgroup, nav, section {
+	vertical-align: top;
+	display: inline-block; 
+	width: 100%; 
+}

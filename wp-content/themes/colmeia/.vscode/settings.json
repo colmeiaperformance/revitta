@@ -1,0 +1,23 @@
+{
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**",
+        "sass/parts/**",
+        "sass/*[!(style)].scss"
+        //"wp-content/themes/pastadotema/*[!(style)].scss"
+    ],
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../"
+        },
+        // Compressed
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../"
+        }
+    ]
+}

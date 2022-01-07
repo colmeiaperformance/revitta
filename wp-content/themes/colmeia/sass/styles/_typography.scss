@@ -1,0 +1,119 @@
+/*
+/////////////////
+////TYPOGRAPHY//
+///////////////
+*/
+
+/*/////
+	LINK//
+	///*/
+
+a {
+	color: $color-gray-70;
+	text-decoration: none;
+	&:hover {
+		color: $color-default-green;
+		text-decoration: none;
+	}
+	&:focus {
+		color: $color-default-green;
+		text-decoration: none;
+	}
+	&:active {
+		color: $color-default-green;
+	}
+}
+.hover {
+	color: $color-default-green;
+	text-decoration: none;
+}
+.focus {
+	color: $color-default-green;
+	text-decoration: none;
+}
+.active {
+	color: $color-default-green;
+}
+
+/*/////
+	TEXT//
+	///*/
+
+p,
+li,
+dd,
+label,
+input,
+textarea {
+	font-family: "Open Sans", sans-serif;
+	margin-top: 1.6rem;
+	font-size: 1.6rem;
+	line-height: 160%;
+	color: $color-gray-555;
+}
+li {
+	list-style-position: inside;
+	li {
+		margin-left: 3.2rem;
+	}
+}
+span {
+	font-size: 1em;
+}
+p li,
+li p,
+p span,
+li span,
+li li {
+	font-size: 1em;
+}
+small {
+	font-size: 0.8em;
+}
+strong {
+	color: $color-gray-222;
+}
+
+/*///////
+	HEADER//
+	/////*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+legend {
+	margin-top: 2.4rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	line-height: 120%;
+	color: $color-default-green;
+}
+h1 {
+	text-transform: none;
+	font-size: 3.6em;
+}
+dt,
+h2 {
+	font-size: 2.4em;
+}
+h2 {
+	text-transform: uppercase;
+}
+h3,
+legend {
+	font-size: 2em;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1.6em;
+}
+h5 {
+	font-size: 1.4em;
+}
+h6 {
+	font-size: 1.2em;
+}
