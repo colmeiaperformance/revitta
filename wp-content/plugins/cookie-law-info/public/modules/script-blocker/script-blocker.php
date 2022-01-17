@@ -78,7 +78,7 @@ if (!class_exists('Cookie_Law_Info_Script_Blocker')) {
            
         }
         public function init_script_blocker() {
-            if ( wp_doing_ajax() || is_admin() ) {
+            if ( ( defined( 'DOING_AJAX' ) && DOING_AJAX ) || is_admin() ) {
                 return;
             }
             if( $this->get_blocking_status() === true && $this->advanced_rendering_enabled() === true && $this->third_party_scripts() === true ) {
