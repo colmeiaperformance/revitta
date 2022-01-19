@@ -1,8 +1,16 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logotipo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand" href="#">
+      <img src="<?php echo get_template_directory_uri() . '/images/logo-topo.svg' ?>" alt="Logo">
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="4" rx="2" fill="white"/>
+          <rect y="8" width="28" height="4" rx="2" fill="white"/>
+          <rect y="16" width="28" height="4" rx="2" fill="white"/>
+        </svg>
+      </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
            <?php
@@ -11,15 +19,11 @@
                 'container' => false,
                 'menu_class' => '',
                 'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
+                'items_wrap' => '<ul id="%1$s" class="navbar-nav ms-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
                 'depth' => 2,
                 'walker' => new bootstrap_5_wp_nav_menu_walker()
             ));
             ?>
-      <form method="get" role="search" id="searchform" class="d-flex" action="<?php bloginfo('home'); ?>/">
-              <input type="text" name="s" id="s"  class="form-control me-2" placeholder="Pesquisa" aria-label="Pesquisa">
-              <input type="submit" name="submit"  id="search-button" value="Ok" class="btn btn-outline-primary">
-      </form>
     </div>
   </div>
 </nav>
