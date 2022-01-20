@@ -123,7 +123,6 @@
         </div>
       </div>
     </div>
-     <hr>
   </div>
 </section>
 
@@ -145,6 +144,58 @@
         <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
       </div><!-- /.col-lg-4 -->
     </div>
+  </div>
+</section>
+
+<section class="candela">
+  <div class="container"> 
+   <h2 class="pb-2 text-center">Clinical Solutions</h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-md-6">
+              <div class="icon-square flex-shrink-0 me-3">
+                <img class="d-block mx-auto mb-4 img-fluid" src="<?php echo get_template_directory_uri() . '/images/Dr-Bashar-Mohsen.svg' ?>" alt="About us" >
+              </div>  
+            </div>
+            <div class="col-md-6">
+              <p>Dr. Bashar Mohsen has been a practicing physician for over fifteen years. Dr. Mohsen completed his residencies at New York Medical College, Metropolitan Hospital and Temple University Hospital. He also completed a fellowship at Saint Louis University Health Sciences Center.</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-5"> 
+              <h2><bold>Procedures and Conditions</bold> treated</h2>
+              <div class="row">
+                 <div class="col-sm-6">
+              <ul>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+                <li>General neurology</li>
+               </ul>
+             </div>
+              </div>
+            </div>
+        </div>
+     </div>
+  </div>
   </div>
 </section>
 
