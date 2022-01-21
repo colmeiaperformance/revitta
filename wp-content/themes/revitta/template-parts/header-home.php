@@ -1,18 +1,16 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img src="<?php echo get_template_directory_uri() . '/images/logo-topo.svg' ?>" alt="Logo">
     </a>
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="28" height="4" rx="2" fill="white"/>
           <rect y="8" width="28" height="4" rx="2" fill="white"/>
           <rect y="16" width="28" height="4" rx="2" fill="white"/>
-        </svg>
-      </span>
+      </svg>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
            <?php
             wp_nav_menu(array(
                 'theme_location' => 'main-menu',

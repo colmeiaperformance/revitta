@@ -200,49 +200,160 @@
 </section>
 
 <section class="testmonials bg-secondary p-4">
-  <div id="testmonials" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#testmonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#testmonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#testmonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner p-4">
+  <div class="container"> 
+    <div id="testmonials" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testmonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testmonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testmonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner p-4">
 
-      <div class="carousel-item p-4">
-        <div class="container text-center">
-          <div class="text-dark">
-            <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <p>Jack Cohen</p>
+        <div class="carousel-item p-4">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>Jack Cohen</p>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="carousel-item p-4 active">
-        <div class="container text-center">
-          <div class="text-dark">
-            <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <p>Jane Doe</p>
+        
+        <div class="carousel-item p-4 active">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>Jane Doe</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="carousel-item p-4">
-        <div class="container text-center">
-          <div class="text-dark">
-            <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <p>John Doe</p>
+        <div class="carousel-item p-4">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>John Doe</p>
+            </div>
           </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
+</section>
 
+<section class="consultation">
+  <div class="container"> 
+    <h2 class="text-center">Customized consultation</h2>
+    <p class="text-center">Reserve your customized consultation</p>
+    <form class="needs-validation" novalidate>
+      <div class="row">
+        <div class=col-md-6>
+           <div class="mb-3">
+            <input type="text" class="form-control" id="inputName" placeholder="Full name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" id="phone" class="form-control" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+            </div>
+
+            <div class="col-6">
+              <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Book now</button>
+    </form>
+  </div>
 </section>
