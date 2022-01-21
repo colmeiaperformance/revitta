@@ -289,7 +289,7 @@ function fix_svg() {
 }
 add_action( 'admin_head', 'fix_svg' );
 
-/* Criação das páginas de opções do ACF */
+/* Creating option pages on ACF plugin */
 add_action('acf/init', 'my_acf_op_init');
 function my_acf_op_init() {
 
@@ -330,7 +330,7 @@ function my_acf_op_init() {
     }
 }
 
-/* Remoção do editor do WP */
+/* Removing WP editor */
 add_action('init', 'remove_guttenberg_from_pages', 10);
 function remove_guttenberg_from_pages()
 {
