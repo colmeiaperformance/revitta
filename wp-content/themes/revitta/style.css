@@ -16,10 +16,16 @@ html,
 body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
+  font-family: "Source Sans Pro", sans-serif !important;
 }
 
+/*
+/////////////////
+////TYPOGRAPHY//
+///////////////
+*/
 /************************************/
-/********* icare STYLES *************/
+/********* Revitta STYLES *************/
 /************************************/
 .navbar {
   background-color: transparent;

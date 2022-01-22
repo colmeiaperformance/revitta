@@ -4,19 +4,8 @@
 // ////////////////
 // */
 
-// *, *:before, *:after { 
-// 	margin: 0; 
-// 	padding: 0; 
-// 	box-sizing: border-box; 
-// 	word-spacing: normal; 
-// }
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: 'Source Sans Pro', sans-serif!important;
 }
-
-// article, aside, div, footer, header, hgroup, nav, section {
-// 	vertical-align: top;
-// 	display: inline-block; 
-// 	width: 100%; 
-// }
