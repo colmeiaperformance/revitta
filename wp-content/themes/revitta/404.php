@@ -6,13 +6,13 @@
 				404
 			</h1>
 			<h2>
-				Página não encontrada :(
+				<?php _e( 'Page not found', 'revitta-domain'); ?> :(
 			</h2>
 			<p>
-				Desculpe, a página que você está procurando não existe.
+				<?php _e( 'Sorry, the page you are looking for doesn\'t exist.', 'revitta-domain'); ?>
 			</p>
 			<a href="<?php echo home_url(); ?>" class="btn btn-primary btn-lg">
-				Voltar ao início
+				<?php _e( 'Back to home', 'revitta-domain' ); ?>
 			</a>
 	</section>
 </main>

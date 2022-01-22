@@ -13,7 +13,7 @@
 <section class="mt-5 pt-2">
   <div class="container">
       <h3>
-          Resultado da pesquisa
+          <?php _e('Search results', 'revitta-domain'); ?>
         </h3>
    </div>  
 </section>

@@ -38,7 +38,7 @@
     <div class="d-flex justify-content-between border-top text-center">
       <p>© 2022 revitta medical & aesthetic. All Rights Reserved.</p>
     </div>
-   <p class="float-end"><a href="#">Back to top</a></p>
+   <p class="float-end"><a href="#"><?php _e('Back to top', 'revitta-domain'); ?></a></p>
   </div>
 </footer>
 <?php wp_footer(); ?>
