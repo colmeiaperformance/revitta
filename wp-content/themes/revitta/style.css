@@ -19,6 +19,54 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
+.background-green-dark {
+  background-color: #20585e !important;
+}
+
+.background-green-medium {
+  background-color: #4d797e !important;
+}
+
+.background-green-light {
+  background-color: #799b9e !important;
+}
+
+.background-mustard-dark {
+  background-color: #a37a39 !important;
+}
+
+.background-mustard-medium {
+  background-color: #b59561 !important;
+}
+
+.background-mustard-light {
+  background-color: #c8af88 !important;
+}
+
+.background-black-secondary {
+  background-color: #0f0f0f !important;
+}
+
+.background-off-white {
+  background-color: #e4ece3 !important;
+}
+
+.background-grey-medium {
+  background-color: #9b9b9b !important;
+}
+
+.background-grey-light {
+  background-color: #c9c9c9 !important;
+}
+
+.background-black {
+  background-color: #000000 !important;
+}
+
+.backgound-white {
+  background-color: #FFFFFF !important;
+}
+
 /*
 /////////////////
 ////TYPOGRAPHY//
@@ -41,21 +89,31 @@ body {
   background-color: transparent;
 }
 
+.navbar-margin {
+  margin-top: 65px;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.938rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
 @media (max-width: 991.98px) {
   .navbar {
     background-color: #20585e !important;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+  .navbar-margin {
+    margin-top: 30px;
+  }
   .navbar .navbar-brand img {
     height: 42px;
   }
-}
-
-@media (max-width: 991.98px) {
   .navbar .offcanvas-collapse {
     position: fixed;
-    top: 68px;
+    top: 98px;
     /* Height of navbar */
     bottom: 0;
     left: 100%;
@@ -69,6 +127,10 @@ body {
     transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  }
+  .navbar .offcanvas-collapse-margin {
+    top: 68px;
+    /* Height of navbar */
   }
   .navbar .offcanvas-collapse.open {
     visibility: visible;
@@ -103,20 +165,39 @@ body {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
-  color: #6c757d;
+  color: #FFFFFF;
 }
 
 .navbar .nav-underline .nav-link:hover {
-  color: #007bff;
+  color: #c8af88;
 }
 
 .navbar .nav-underline .active {
-  font-weight: 500;
-  color: #343a40;
+  font-weight: 700;
+  color: #c8af88;
 }
 
-.navbar .bg-purple {
-  background-color: #6f42c1;
+.topbar {
+  background: #ffffff2e;
+  height: 50px;
+}
+
+.topbar p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .topbar {
+    background: #a37a39;
+    height: auto;
+    min-height: 30px;
+  }
+  .topbar p {
+    font-size: 0.688rem;
+    padding-left: 0;
+  }
 }
 
 /************************************/

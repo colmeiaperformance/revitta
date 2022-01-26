@@ -1,7 +1,9 @@
-  <div class="container fixed-top text-white">
-    <p>333-333-3333   1290 Weston Road, Suit 310, Weston, FL 33326</p>
+  <div class="topbar fixed-top text-white d-flex align-items-center">
+    <div class="container">
+      <p class="m-0"><i class="bi bi-telephone-fill"></i> 333-333-3333   <i class="bi bi-geo-alt-fill"></i> 1290 Weston Road, Suit 310, Weston, FL 33326</p>
+    </div>
   </div>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-margin" aria-label="Main navigation">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="<?php echo get_template_directory_uri() . '/images/logo-topo.svg' ?>" alt="Logo">

@@ -12,10 +12,58 @@ $color-secondary-light: #c8af88;
 //Solid colors
 $color-black-secondary: #0f0f0f;
 $color-off-white: #e4ece3;
-$color-grey-dark: #9b9b9b;
+$color-grey-medium: #9b9b9b;
 $color-grey-light: #c9c9c9;
-
 
 //Default colors
 $color-black: #000000;
 $color-white: #FFFFFF;
+
+//Backgrounds
+.background-green-dark {
+  background-color: $color-primary-dark!important;
+}
+
+.background-green-medium {
+  background-color: $color-primary-medium!important;
+}
+
+.background-green-light {
+  background-color: $color-primary-light!important;
+}
+
+.background-mustard-dark {
+  background-color: $color-secondary-dark!important;
+}
+
+.background-mustard-medium {
+  background-color: $color-secondary-medium!important;
+}
+
+.background-mustard-light {
+  background-color: $color-secondary-light!important;
+}
+
+.background-black-secondary {
+  background-color: $color-black-secondary!important;
+}
+
+.background-off-white {
+  background-color: $color-off-white!important;
+}
+
+.background-grey-medium{
+  background-color: $color-grey-medium!important;
+}
+
+.background-grey-light{
+  background-color: $color-grey-light!important;
+}
+
+.background-black {
+  background-color: $color-black!important;
+}
+
+.backgound-white {
+  background-color: $color-white!important;
+}
