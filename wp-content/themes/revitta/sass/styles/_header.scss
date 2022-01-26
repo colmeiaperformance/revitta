@@ -1,12 +1,9 @@
 .header {
-	&--blog {
-
+	.carousel-item {
+		background: $color-primary-dark;
 	}
-	&--home{
-
-	}
-	
-	&--page {
-
-	}
+	img.bd-placeholder-img {
+  filter: grayscale(1);
+  opacity: 0.2;    
+}
 }

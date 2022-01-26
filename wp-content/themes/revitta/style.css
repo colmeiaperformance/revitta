@@ -27,6 +27,16 @@ body {
 /************************************/
 /********* Revitta STYLES *************/
 /************************************/
+.header .carousel-item {
+  background: #20585e;
+}
+
+.header img.bd-placeholder-img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.2;
+}
+
 .navbar {
   background-color: transparent;
 }
@@ -108,4 +118,8 @@ body {
 .navbar .bg-purple {
   background-color: #6f42c1;
 }
+
+/************************************/
+/********* Revitta COMPONENTS *************/
+/************************************/
 /*# sourceMappingURL=style.css.map */
