@@ -11,9 +11,9 @@
         <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>" alt="Logo">
         <div class="container">
           <div class="carousel-caption text-center">
-            <h1>We're here to help you find your most precious gift: yourself!</h1>
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
             <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and out, with excellence.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Book your consultation</a></p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
           </div>
         </div>
       </div>
@@ -22,9 +22,9 @@
         <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>" alt="Logo">
         <div class="container">
           <div class="carousel-caption text-center">
-            <h1>We're here to help you find your most precious gift: yourself!</h1>
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
             <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and out, with excellence.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Book your consultation</a></p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
           </div>
         </div>
       </div>
@@ -33,9 +33,9 @@
         <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>" alt="Logo">
         <div class="container">
           <div class="carousel-caption text-center">
-            <h1>We're here to help you find your most precious gift: yourself!</h1>
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
             <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and out, with excellence.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Book your consultation</a></p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
           </div>
         </div>
       </div>

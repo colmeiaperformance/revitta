@@ -27,8 +27,8 @@ jQuery(document).ready(function () {
       jQuery(window).scrollTop() >= 50 ? "removeClass" : "addClass"
     ]("navbar-margin");
   });
-
-    jQuery(".navbar")[
+  
+  jQuery(".navbar")[
     jQuery(window).scrollTop() >= 50 ? "addClass" : "removeClass"
   ]("background-green-dark");
   
@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
       jQuery(window).scrollTop() >= 50 ? "addClass" : "removeClass"
     ]("background-green-dark");
   });
-//
+  //
   jQuery(".offcanvas-collapse.open")[
     jQuery(window).scrollTop() >= 50 ? "addClass" : "removeClass"
   ]("offcanvas-collapse-margin");
@@ -47,18 +47,4 @@ jQuery(document).ready(function () {
       jQuery(window).scrollTop() >= 50 ? "addClass" : "removeClass"
     ]("offcanvas-collapse-margin");
   });
-
-  // var value = jQuery(this).scrollTop();
-  // if (value > 50) jQuery(".logo").attr("src", logoColorido);
-  // else jQuery(".logo").attr("src", logoBranco);
-  
-  // jQuery(window).scroll(function (e) {
-  //   jQuery("#navbar")[
-  //     jQuery(window).scrollTop() >= 150 ? "addClass" : "removeClass"
-  //   ]("scrolling");
-  
-  //   var value = jQuery(this).scrollTop();
-  //   if (value > 50) jQuery(".logo").attr("src", logoColorido);
-  //   else jQuery(".logo").attr("src", logoBranco);
-  // });
 });

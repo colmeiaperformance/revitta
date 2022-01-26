@@ -2,7 +2,7 @@
   background-color: transparent;
   
   &-margin {
-    margin-top: 85px;
+    margin-top: 65px;
     @media (max-width: 991.98px) {
       margin-top: 30px;
     }
@@ -94,7 +94,7 @@
   }
   
   @media (max-width: 991.98px) {
-    background-color: $color-primary-dark!important;
+    background-color: #20585ecc!important;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     
