@@ -1,6 +1,8 @@
 	.btn {
+    border: 0;
     &:hover {
       box-shadow: none!important;
+      opacity: 0.9;
     }
     
     .btn-check:focus + &,

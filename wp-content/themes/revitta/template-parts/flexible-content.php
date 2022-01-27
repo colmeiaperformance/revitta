@@ -68,58 +68,97 @@
 </section>
 
 <section class="services">
-  <div class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2">Our services</h2>
-    <p>Our services are FDA-approved and FDA-cleared non-invasive treatments, performed by licensed professionals.</p>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <img class="bi" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+  <div class="container pt-lg-5 pb-5">
+    <h2 class="pt-4 pb-3 mt-1 text-uppercase text-center">Our services</h2>
+    <p class="text-black text-center my-0 mx-auto">Our services are FDA-approved and FDA-cleared non-invasive treatments, performed by licensed professionals.</p>
+    <div class="row g-4 g-lg-5 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
         </div>
         <div>
-          <p>Tired to shaving?</p>
-          <h4>Laser hair removal</h4>
-          <a href="#" class="btn btn-primary">
+          <p class="text-black w-auto mb-2">Tired to shaving?</p>
+          <h4 class="text-uppercase">Laser hair removal</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
+            + Read more
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
+        </div>
+        <div>
+          <p class="text-black w-auto mb-2">Smoother, healthier and youthful-looking skin</p>
+          <h4 class="text-uppercase">Facials</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
             + READ MORE
           </a>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <img class="bi" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+      <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
         </div>
         <div>
-          <p>Tired to shaving?</p>
-          <h4>Laser hair removal</h4>
-          <a href="#" class="btn btn-primary">
+          <p class="text-black w-auto mb-2">Boost your skin's natural healing system</p>
+          <h4 class="text-uppercase">Candela Exceed Microneedling</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
             + READ MORE
           </a>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <img class="bi" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+      <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
         </div>
         <div>
-          <p>Tired to shaving?</p>
-          <h4>Laser hair removal</h4>
-          <a href="#" class="btn btn-primary">
+          <p class="text-black w-auto mb-2">Tired to shaving?</p>
+          <h4 class="text-uppercase">Laser hair removal</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
             + READ MORE
           </a>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <img class="bi" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="Service">
+       <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
         </div>
         <div>
-          <p>Tired to shaving?</p>
-          <h4>Laser hair removal</h4>
-          <a href="#" class="btn btn-primary">
-            + READ MORE
+          <p class="text-black w-auto mb-2">Tired to shaving?</p>
+          <h4 class="text-uppercase">Laser hair removal</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
+            + Read more
           </a>
         </div>
       </div>
+       <div class="col d-flex align-items-end">
+        <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
+          <a href="#">
+            <img class="bi rounded-circle" src="<?php echo get_template_directory_uri() . '/images/service.svg' ?>" alt="service">
+          </a>
+        </div>
+        <div>
+          <p class="text-black w-auto mb-2">Tired to shaving?</p>
+          <h4 class="text-uppercase">Laser hair removal</h4>
+          <a href="#" class="btn text-uppercase border-1 mb-2">
+            + Read more
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mb-3">
+      <a href="#" class="btn text-uppercase">EMBRACE YOURSELF TODAY!</a>
     </div>
   </div>
 </section>
