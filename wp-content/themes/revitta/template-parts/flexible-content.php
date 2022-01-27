@@ -53,15 +53,15 @@
 
 <section class="about">
   <div class="container px-4 py-5 my-5 text-center">
-    <div class="row">
-      <div class="col">
-        <img class="d-block mx-auto mb-4" src="<?php echo get_template_directory_uri() . '/images/about.svg' ?>" alt="About us" >
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <img class="d-block mx-auto mb-4" src="https://colmeia.link/revitta/wp-content/themes/revitta/images/about.svg" alt="About us">
       </div>
-      <div class="col-lg-6 mx-auto">
+      <div class="col-xl-3 col-lg-4 col-md-7 col-sm-9 my-auto text-lg-start">
         <p class="lead mb-4">Revitta was founded with the objective to provide well-being and health for our patients from the inside to the outside.</p>
         <p>We decided to merge neurology and cosmetics to improve the quality of life, self-esteem, appearance and values of our patients from inside to the outside.</p> 
         <p>If you want to boost your life, your place is here.</p>
-        </p>
+        <p></p>
       </div>
     </div>
   </div>
