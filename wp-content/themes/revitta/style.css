@@ -111,7 +111,7 @@ body {
 .about-candela p {
   font-weight: 200;
   font-size: 1.5rem;
-  line-height: 1.2rem;
+  line-height: 1.875rem;
   width: 70%;
 }
 
@@ -120,6 +120,7 @@ body {
     font-size: 1rem;
     margin-bottom: 1.2rem;
     width: auto;
+    line-height: 1.2rem;
   }
 }
 
@@ -145,22 +146,42 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-.about-candela .card .card-img-top img {
+.about-candela .card img {
   width: 100%;
   height: auto;
   border-radius: 10px 10px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  min-height: 200px;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela .card img {
+    min-height: auto;
+  }
 }
 
 .about-candela .card .card-body {
-  padding: 1.875rem 1.25rem;
+  padding: 1.25rem;
   border-radius: 0px 0px 10px 10px;
-  min-height: 150px;
+  min-height: 195px;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela .card .card-body {
+    min-height: auto;
+  }
 }
 
 .about-candela .card .card-body a {
   line-height: 1.414rem;
   font-weight: 300;
   font-size: 1.125rem;
+}
+
+.about-candela .card .card-body ahover {
+  opacity: 0.8;
 }
 
 .header .carousel-item {
@@ -446,7 +467,7 @@ body {
 .services p {
   font-weight: 200;
   font-size: 1.5rem;
-  line-height: 1.2rem;
+  line-height: 1.875rem;
   width: 70%;
 }
 
@@ -455,6 +476,7 @@ body {
     font-size: 1rem;
     margin-bottom: 1.2rem;
     width: auto;
+    line-height: 1.2rem;
   }
 }
 
@@ -528,6 +550,7 @@ body {
 .services .col p {
   font-size: 1.125rem;
   font-weight: 200;
+  line-height: 1.2rem;
 }
 
 @media (max-width: 991.98px) {

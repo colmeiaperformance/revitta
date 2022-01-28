@@ -31,12 +31,13 @@
   p {
     font-weight: 200;
     font-size: 1.5rem;
-    line-height: 1.2rem;
+    line-height: 1.875rem;
     width: 70%;
     @media (max-width: 991.98px) {  
       font-size: 1rem;
       margin-bottom: 1.2rem;
       width: auto;
+      line-height: 1.2rem;
     }
   }
   
@@ -54,20 +55,32 @@
     }
     .card-img-top {     
       border-radius: 10px 10px 0 0;
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px 10px 0 0;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+      vertical-align: middle;
+      min-height: 200px;
+      @media (max-width: 991.98px) {
+        min-height: auto;
       }
     }
     .card-body {
-      padding: 1.875rem 1.25rem;
+      padding: 1.25rem;
       border-radius: 0px 0px 10px 10px;
-      min-height: 150px;
+      min-height: 195px;
+      @media (max-width: 991.98px) {  
+        min-height: auto;
+      }
       a {
         line-height: 1.414rem;
         font-weight: 300;
         font-size: 1.125rem;
+        &hover {
+          opacity: 0.8;
+        }
       }
     }
   }
