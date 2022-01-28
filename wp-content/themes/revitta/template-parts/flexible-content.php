@@ -171,13 +171,12 @@
        <div class="col">
         <div class="card border-0 p-0 bg-transparent">
         <div>
-          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
-          <!-- <h5 class="card-title">Card title</h5> -->
+          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/exceed-microneedling.png' ?>" alt="Candela">
+           <h5 class="card-title text-uppercase text-start w-50">Exceed microneedling</h5>
         </div>
         <div class="card-body d-flex align-items-center justify-content-center">
           <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
-          </a>
+            The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.          </a>
         </div>
        </div>
       </div>
@@ -185,27 +184,26 @@
        <div class="col">
         <div class="card border-0 p-0 bg-transparent">
         <div>
-          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
-          <!-- <h5 class="card-title">Card title</h5> -->
+          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/gentle-pro-series.jpg' ?>" alt="Candela">
+           <h5 class="card-title text-uppercase text-start w-50">Gentle pro series</h5>
         </div>
         <div class="card-body d-flex align-items-center justify-content-center">
           <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
+            <strong>Indicated for:</strong> unwanted hair, port wine stains, diffuse redness, pseudofolliculitis barbae, hemangioma, telangiectasia, leg veins, vascular lesions, onychomycosis (nail fungus), venous lake, pigmented lesions and wrinkles.     
           </a>
+          </div>
         </div>
-       </div>
       </div>
 
       <div class="col">
         <div class="card border-0 p-0 bg-transparent">
         <div>
-          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
-          <!-- <h5 class="card-title">Card title</h5> -->
+          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/velashape.jpg' ?>" alt="Candela">
+           <h5 class="card-title text-uppercase text-start w-50">Velashape III</h5> 
         </div>
         <div class="card-body d-flex align-items-center justify-content-center">
           <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
             <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
-          </a>
         </div>
        </div>
       </div>

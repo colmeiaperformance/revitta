@@ -130,16 +130,39 @@ body {
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  position: relative;
 }
 
-.about-candela .card a {
-  font-weight: 200;
-  font-size: 1.125rem;
+.about-candela .card .card-title {
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 1111;
+  top: 0;
+  margin-top: 25%;
+  color: #c8af88;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  padding-bottom: 10px;
+  margin-left: 20px;
 }
 
-.about-candela .card a strong {
-  color: #a37a39;
-  font-weight: 600;
+@media (max-width: 576px) {
+  .about-candela .card .card-title {
+    font-size: 1.25rem;
+    line-height: 1rem;
+  }
+}
+
+.about-candela .card .card-title::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  border-radius: 20px;
+  background: #c8af88;
+  bottom: 0;
+  left: 0;
 }
 
 .about-candela .card .card-img-top {
@@ -176,12 +199,24 @@ body {
 
 .about-candela .card .card-body a {
   line-height: 1.414rem;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.125rem;
+}
+
+@media (max-width: 576px) {
+  .about-candela .card .card-body a {
+    line-height: 1.414rem;
+    font-size: 1rem;
+  }
 }
 
 .about-candela .card .card-body ahover {
   opacity: 0.8;
+}
+
+.about-candela .card .card-body a strong {
+  color: #a37a39;
+  font-weight: 600;
 }
 
 .header .carousel-item {
