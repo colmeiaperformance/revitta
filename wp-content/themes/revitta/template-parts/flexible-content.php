@@ -163,23 +163,49 @@
   </div>
 </section>
 
-<section class="candela">
-  <div class="container"> 
-   <h2 class="pb-2">More about candela</h2>
-   <p>The Candela brand provides advanced energy-based solutions for a broad range of medical-aesthetic applications. Candela is an important part of Revitta, find out more of our products:</p>
-    <div class="row text-center">
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
-        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
-        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
-      </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
-        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
-      </div><!-- /.col-lg-4 -->
+<section class="about-candela">
+  <div class="container pt-lg-5 pb-5"> 
+   <h2 class="pt-4 pb-3 mt-1 text-uppercase text-center">More about candela</h2>
+   <p class="text-black text-center my-0 mx-auto">The Candela brand provides advanced energy-based solutions for a broad range of medical-aesthetic applications. Candela is an important part of Revitta, find out more of our products:</p>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 g-3 g-lg-4 py-5">
+      <div class="col">
+        <div class="card border-0 p-0 bg-transparent">
+        <div>
+          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
+          <!-- <h5 class="card-title">Card title</h5> -->
+        </div>
+        <div class="card-body">
+          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</a>
+        </div>
+      </div>
+      </div>
+
+         <div class="col">
+        <div class="card border-0 p-0 bg-transparent">
+        <div>
+          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
+          <!-- <h5 class="card-title">Card title</h5> -->
+        </div>
+        <div class="card-body">
+          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link"><strong>Indicated for:</strong> unwanted hair, port wine stains, diffuse redness, pseudofolliculitis barbae, hemangioma, telangiectasia, leg veins, vascular lesions, onychomycosis (nail fungus), venous lake, pigmented lesions and wrinkles.</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 p-0 bg-transparent">
+        <div>
+          <img class="card-img-top bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.png' ?>" alt="Candela">
+          <!-- <h5 class="card-title">Card title</h5> -->
+        </div>
+        <div class="card-body">
+          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
+            <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
+          </a>
+        </div>
+       </div>
+      </div>
+
     </div>
   </div>
 </section>

@@ -75,6 +75,94 @@ body {
 /************************************/
 /********* Revitta STYLES *************/
 /************************************/
+.about-candela h2 {
+  color: #a37a39;
+  font-size: 3.5rem;
+  font-weight: 200;
+  letter-spacing: 6px;
+  position: relative;
+  margin-bottom: 1.563rem;
+}
+
+.about-candela h2::after {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 110px;
+  border-radius: 20px;
+  background: #c8af88;
+  bottom: 0;
+  left: calc(50% - 110px /2);
+}
+
+@media (max-width: 991.98px) {
+  .about-candela h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 3px;
+  }
+  .about-candela h2::after {
+    height: 6px;
+    width: 55px;
+    left: calc(50% - 55px /2);
+  }
+}
+
+.about-candela p {
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  width: 70%;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    width: auto;
+  }
+}
+
+.about-candela .card {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about-candela .card a {
+  font-weight: 200;
+  font-size: 1.125rem;
+}
+
+.about-candela .card a strong {
+  color: #a37a39;
+  font-weight: 600;
+}
+
+.about-candela .card .card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.about-candela .card .card-img-top img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.about-candela .card .card-body {
+  padding: 1.875rem 1.25rem;
+  border-radius: 0px 0px 10px 10px;
+  min-height: 150px;
+}
+
+.about-candela .card .card-body a {
+  line-height: 1.414rem;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
 .header .carousel-item {
   background: #20585e;
 }
