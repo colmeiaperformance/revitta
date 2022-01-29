@@ -170,13 +170,14 @@
     <div class="row row-cols-1 row-cols-lg-3 mb-3 g-3 g-lg-4 py-5">
        <div class="col">
         <div class="card border-0 p-0 bg-transparent">
-        <div>
+        <div class="card-thumb">
           <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/exceed-microneedling.png' ?>" alt="Candela">
            <h5 class="card-title text-uppercase text-start w-50">Exceed microneedling</h5>
         </div>
         <div class="card-body d-flex align-items-center justify-content-center">
           <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.          </a>
+            The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.         
+           </a>
         </div>
        </div>
       </div>
@@ -204,7 +205,8 @@
         <div class="card-body d-flex align-items-center justify-content-center">
           <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
             <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
-        </div>
+          </a>
+          </div>
        </div>
       </div>
 

@@ -46,6 +46,20 @@
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     position: relative;
+    .card-thumb {
+      position: relative;
+      display: inline-block;
+      ::after{
+        content: '';
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: linear-gradient(to bottom, #00000000 0%, #0000000f 100%);
+        z-index: 1;
+      }
+    }
     .card-title {
       margin-bottom: 0;
       position: absolute;
@@ -71,6 +85,7 @@
         background: $color-secondary-light;
         bottom: 0;
         left: 0;
+        top: 100%;
       }
     }
     .card-img-top {     
