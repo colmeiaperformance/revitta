@@ -266,48 +266,47 @@
   </div>
 </section>
 
-<section class="testmonials bg-secondary p-4">
+<section class="testmonials">
   <div class="container"> 
-    <div id="testmonials" class="carousel slide" data-bs-ride="carousel">
+    <div id="testmonials" class="carousel slide py-4" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#testmonials" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
-      <div class="carousel-inner p-4">
+      <div class="carousel-inner container py-lg-5 px-lg-0">
 
-        <div class="carousel-item p-4">
-          <div class="container text-center">
-            <div class="text-dark">
-              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-              <p>Jack Cohen</p>
-            </div>
-          </div>
+        <div class="carousel-item text-center position-relative p-4 active">
+           <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
+            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+            <h3>Jack Cohen</h3>
         </div>
         
-        <div class="carousel-item p-4 active">
-          <div class="container text-center">
-            <div class="text-dark">
-              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-              <p>Jane Doe</p>
-            </div>
-          </div>
+        <div class="carousel-item text-center position-relative p-4">
+            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
+            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+            <h3>Jane Doe</h3>
         </div>
 
-        <div class="carousel-item p-4">
-          <div class="container text-center">
-            <div class="text-dark">
-              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-              <p>John Doe</p>
-            </div>
-          </div>
+        <div class="carousel-item text-center position-relative p-4">
+            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
+            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+            <h3>John Doe</h3>
         </div>
+
+          <div class="carousel-item text-center position-relative p-4">
+            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
+            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+            <h3>John Jane</h3>
+        </div>
+
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#testmonials" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#testmonials" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
