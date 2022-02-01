@@ -8,7 +8,6 @@
         "sass/parts/_variables.scss",
         "sass/parts/_typography.scss",
         "sass/styles/_about.scss",
-        "sass/styles/_about-candela.scss",
         "sass/styles/_breadcrumb.scss",
         "sass/styles/_carousel.scss",
         "sass/styles/_cases.scss",

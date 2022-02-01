@@ -81,7 +81,7 @@
         <div>
           <p class="text-black w-auto mb-2">Tired to shaving?</p>
           <h4 class="text-uppercase">Laser hair removal</h4>
-          <a href="#" class="btn text-uppercase border-1 mb-2 stretched-link">
+          <a href="#" class="btn text-uppercase border-1 mb-2">
             + Read more
           </a>
         </div>
@@ -163,53 +163,23 @@
   </div>
 </section>
 
-<section class="about-candela">
-  <div class="container pt-lg-5 pb-5"> 
-   <h2 class="pt-4 pb-3 mt-1 text-uppercase text-center">More about candela</h2>
-   <p class="text-black text-center my-0 mx-auto">The Candela brand provides advanced energy-based solutions for a broad range of medical-aesthetic applications. Candela is an important part of Revitta, find out more of our products:</p>
-    <div class="row row-cols-1 row-cols-lg-3 mb-3 g-3 g-lg-4 py-5">
-       <div class="col">
-        <div class="card border-0 p-0 bg-transparent">
-        <div class="card-thumb">
-          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/exceed-microneedling.png' ?>" alt="Candela">
-           <h5 class="card-title text-uppercase text-start w-50">Exceed microneedling</h5>
-        </div>
-        <div class="card-body d-flex align-items-center justify-content-center">
-          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.         
-           </a>
-        </div>
-       </div>
-      </div>
-
-       <div class="col">
-        <div class="card border-0 p-0 bg-transparent">
-        <div>
-          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/gentle-pro-series.jpg' ?>" alt="Candela">
-           <h5 class="card-title text-uppercase text-start w-50">Gentle pro series</h5>
-        </div>
-        <div class="card-body d-flex align-items-center justify-content-center">
-          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            <strong>Indicated for:</strong> unwanted hair, port wine stains, diffuse redness, pseudofolliculitis barbae, hemangioma, telangiectasia, leg veins, vascular lesions, onychomycosis (nail fungus), venous lake, pigmented lesions and wrinkles.     
-          </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card border-0 p-0 bg-transparent">
-        <div>
-          <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/images/velashape.jpg' ?>" alt="Candela">
-           <h5 class="card-title text-uppercase text-start w-50">Velashape III</h5> 
-        </div>
-        <div class="card-body d-flex align-items-center justify-content-center">
-          <a href="#" class="btn card-text text-black w-auto p-0 border-0 stretched-link">
-            <strong> Benefits:</strong> the assurance of proven results, power and speed, comfort, convenience, all-season treatment.ti-aging methods on the market.
-          </a>
-          </div>
-       </div>
-      </div>
-
+<section class="candela">
+  <div class="container"> 
+   <h2 class="pb-2">More about candela</h2>
+   <p>The Candela brand provides advanced energy-based solutions for a broad range of medical-aesthetic applications. Candela is an important part of Revitta, find out more of our products:</p>
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
+        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
+        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
+      </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/candela.svg' ?>" alt="Candela">
+        <p>The Candela Exceed™ medical microneedling device is the latest technology that’s quickly replacing dermal rollersand other anti-aging methods on the market.</p>
+      </div><!-- /.col-lg-4 -->
     </div>
   </div>
 </section>
@@ -266,47 +236,48 @@
   </div>
 </section>
 
-<section class="testmonials">
+<section class="testmonials bg-secondary p-4">
   <div class="container"> 
-    <div id="testmonials" class="carousel slide py-4" data-bs-ride="carousel">
+    <div id="testmonials" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#testmonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#testmonials" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
-      <div class="carousel-inner container py-lg-5 px-lg-0">
+      <div class="carousel-inner p-4">
 
-        <div class="carousel-item text-center position-relative p-4 active">
-           <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
-            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <h3>Jack Cohen</h3>
+        <div class="carousel-item p-4">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>Jack Cohen</p>
+            </div>
+          </div>
         </div>
         
-        <div class="carousel-item text-center position-relative p-4">
-            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
-            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <h3>Jane Doe</h3>
+        <div class="carousel-item p-4 active">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>Jane Doe</p>
+            </div>
+          </div>
         </div>
 
-        <div class="carousel-item text-center position-relative p-4">
-            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
-            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <h3>John Doe</h3>
+        <div class="carousel-item p-4">
+          <div class="container text-center">
+            <div class="text-dark">
+              <p>The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
+              <p>John Doe</p>
+            </div>
+          </div>
         </div>
-
-          <div class="carousel-item text-center position-relative p-4">
-            <img class="" src="<?php echo get_template_directory_uri() . '/images/quote.svg' ?>" alt="Quote">
-            <p class="text-black">The Candela brand provide advanced energy-based solutions for a broad range of medical-aesthetic applications including treatment of benign vascular and pigmented lesions, scars, facial resurfacing, wrinkle reduction, acne, leg veins, cellulite, body shaping, women's health and hair removal. Candela is an important part of Revitta, find out more of our products:</p>
-            <h3>John Jane</h3>
-        </div>
-
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testmonials" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testmonials" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>

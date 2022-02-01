@@ -438,7 +438,7 @@ body {
 .services p {
   font-weight: 200;
   font-size: 1.5rem;
-  line-height: 1.875rem;
+  line-height: 1.2rem;
   width: 70%;
 }
 
@@ -447,7 +447,6 @@ body {
     font-size: 1rem;
     margin-bottom: 1.2rem;
     width: auto;
-    line-height: 1.2rem;
   }
 }
 
@@ -521,7 +520,6 @@ body {
 .services .col p {
   font-size: 1.125rem;
   font-weight: 200;
-  line-height: 1.2rem;
 }
 
 @media (max-width: 991.98px) {
@@ -581,99 +579,6 @@ body {
   opacity: 1;
   color: #FFFFFF;
   background-color: #a37a39;
-}
-
-.testmonials {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.05)), to(rgba(140, 140, 140, 0.05)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(140, 140, 140, 0.05) 100%);
-}
-
-.testmonials .carousel-control-next, .testmonials .carousel-control-prev {
-  width: auto;
-}
-
-.testmonials .carousel-control-prev-icon {
-  background-image: url(images/icon-prev.svg);
-}
-
-.testmonials .carousel-control-next-icon {
-  background-image: url(images/icon-next.svg);
-}
-
-@media (max-width: 991.98px) {
-  .testmonials .carousel-control-prev-icon, .testmonials .carousel-control-next-icon {
-    height: 20.17px;
-    width: 20.17px;
-  }
-}
-
-.testmonials .carousel-indicators {
-  margin-bottom: 45px;
-}
-
-@media (max-width: 991.98px) {
-  .testmonials .carousel-indicators {
-    margin-bottom: 25px;
-  }
-}
-
-.testmonials .carousel-indicators [data-bs-target] {
-  height: 8px;
-  width: 8px;
-  border: 0;
-  background-color: #C4C4C4;
-  opacity: 1;
-  border-radius: 100px;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.testmonials .carousel-indicators .active {
-  background-color: #20585e;
-  opacity: 1;
-}
-
-@media (max-width: 991.98px) {
-  .testmonials .carousel-item img {
-    width: 44.21px;
-    height: auto;
-  }
-}
-
-.testmonials .carousel-item p {
-  font-size: 1.5rem;
-  line-height: 1.875rem;
-  font-weight: 300;
-  width: 70%;
-  max-width: 770px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 2.813rem;
-}
-
-@media (max-width: 991.98px) {
-  .testmonials .carousel-item p {
-    font-size: 0.875rem;
-    line-height: 1.1rem;
-    max-width: 100%;
-    width: 80%;
-    margin-bottom: 15px;
-  }
-}
-
-.testmonials .carousel-item h3 {
-  color: #20585e;
-  font-size: 1.875rem;
-  line-height: 1.875rem;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-@media (max-width: 991.98px) {
-  .testmonials .carousel-item h3 {
-    font-size: 1.125rem;
-    margin-bottom: 0;
-  }
 }
 
 .topbar {
