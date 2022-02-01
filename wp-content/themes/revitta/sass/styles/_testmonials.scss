@@ -1,3 +1,80 @@
 .testmonials {
-	
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(140, 140, 140, 0.05) 100%);
+  
+  .carousel-control-next, .carousel-control-prev {
+    width: auto;
+  }
+  .carousel-control-prev-icon {
+    background-image: url(images/icon-prev.svg);
+  }
+  .carousel-control-next-icon {
+    background-image: url(images/icon-next.svg);
+  }
+  
+  @media (max-width: 991.98px) { 
+    .carousel-control-prev-icon , .carousel-control-next-icon  {
+      height: 20.17px;
+      width: 20.17px;
+    }
+  }
+  
+  .carousel-indicators {
+    margin-bottom: 45px;
+    @media (max-width: 991.98px)  {
+      margin-bottom: 25px;
+    }
+    [data-bs-target] {
+      height: 8px;
+      width: 8px;
+      border: 0;
+      background-color: #C4C4C4;
+      opacity: 1;
+      border-radius: 100px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .active {
+      background-color: $color-primary-dark;
+      opacity: 1;
+      
+    }
+  }
+  
+  .carousel-item {
+    img {
+      @media (max-width: 991.98px) { 
+        width: 44.21px;
+        height: auto;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+      font-weight: 300;
+      width: 70%;
+      max-width: 770px;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 2.813rem;
+      @media (max-width: 991.98px) {
+        font-size: 0.875rem;
+        line-height: 1.1rem;
+        max-width: 100%;
+        width: 80%;
+        margin-bottom: 15px;
+      }
+    }
+    
+    h3 {
+      color: $color-primary-dark;
+      font-size: 1.875rem;
+      line-height: 1.875rem;
+      font-weight: 400;
+      margin-bottom: 25px;
+      @media (max-width: 991.98px) {
+        font-size: 1.125rem;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
