@@ -4,7 +4,7 @@
         ".vscode/**",
         "sass/parts/**",
         "sass/*[!(style)].scss"
-        //"wp-content/themes/pastadotema/*[!(style)].scss"
+        //"wp-content/themes/revitta/*[!(style)].scss"
     ],
     "liveSassCompile.settings.formats":[
         // This is Default.
