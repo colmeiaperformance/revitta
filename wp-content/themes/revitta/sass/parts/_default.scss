@@ -9,3 +9,13 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
   font-family: 'Source Sans Pro', sans-serif!important;
 }
+
+:root {
+	accent-color: #799b9e;
+}
+
+// .form-control {
+//   &:focus {
+//       box-shadow: none!important;
+//   }
+// }

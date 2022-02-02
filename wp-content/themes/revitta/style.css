@@ -19,6 +19,10 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
+:root {
+  accent-color: #799b9e;
+}
+
 .background-green-dark {
   background-color: #20585e !important;
 }
@@ -153,6 +157,391 @@ body {
   .about .lead::before {
     display: none;
   }
+}
+
+.about-candela h2 {
+  color: #20585e;
+  font-size: 3.5rem;
+  font-weight: 200;
+  letter-spacing: 6px;
+  position: relative;
+  margin-bottom: 1.563rem;
+}
+
+.about-candela h2::after {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 110px;
+  border-radius: 20px;
+  background: #c8af88;
+  bottom: 0;
+  left: calc(50% - 110px /2);
+}
+
+@media (max-width: 991.98px) {
+  .about-candela h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 3px;
+  }
+  .about-candela h2::after {
+    height: 6px;
+    width: 55px;
+    left: calc(50% - 55px /2);
+  }
+}
+
+.about-candela p {
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  width: 70%;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    width: auto;
+    line-height: 1.2rem;
+  }
+}
+
+.about-candela .card {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+.about-candela .card .card-thumb {
+  position: relative;
+  display: inline-block;
+}
+
+.about-candela .card .card-thumb ::after {
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#0000000f));
+  background-image: linear-gradient(to bottom, #00000000 0%, #0000000f 100%);
+  z-index: 1;
+}
+
+.about-candela .card .card-title {
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 1111;
+  top: 0;
+  margin-top: 25%;
+  color: #c8af88;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .about-candela .card .card-title {
+    font-size: 1.25rem;
+    line-height: 1rem;
+  }
+}
+
+.about-candela .card .card-title::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  border-radius: 20px;
+  background: #c8af88;
+  bottom: 0;
+  left: 0;
+  top: 100%;
+}
+
+.about-candela .card .card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.about-candela .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  min-height: 200px;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela .card img {
+    min-height: auto;
+  }
+}
+
+.about-candela .card .card-body {
+  padding: 1.25rem;
+  border-radius: 0px 0px 10px 10px;
+  min-height: 195px;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela .card .card-body {
+    min-height: auto;
+  }
+}
+
+.about-candela .card .card-body a {
+  line-height: 1.414rem;
+  font-weight: 200;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 576px) {
+  .about-candela .card .card-body a {
+    line-height: 1.414rem;
+    font-size: 1rem;
+  }
+}
+
+.about-candela .card .card-body ahover {
+  opacity: 0.8;
+}
+
+.about-candela .card .card-body a strong {
+  color: #a37a39;
+  font-weight: 600;
+}
+
+.customized-consultation {
+  background: url(images/form-bg.svg) right center no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation {
+    background: transparent;
+  }
+}
+
+.customized-consultation h2 {
+  color: #20585e;
+  font-size: 3.5rem;
+  font-weight: 200;
+  letter-spacing: 6px;
+  position: relative;
+  margin-bottom: 1.563rem;
+}
+
+.customized-consultation h2::after {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 110px;
+  border-radius: 20px;
+  background: #799b9e;
+  bottom: 0;
+  left: calc(50% - 110px /2);
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 3px;
+  }
+  .customized-consultation h2::after {
+    height: 6px;
+    width: 55px;
+    left: calc(50% - 55px /2);
+  }
+}
+
+.customized-consultation p {
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  width: 70%;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    width: auto;
+    line-height: 1.2rem;
+  }
+}
+
+.customized-consultation form h3 {
+  margin-bottom: 3.125rem;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.customized-consultation form .form-control {
+  color: #20585e;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.257rem;
+  padding: 11px 11px 11px 26px;
+  border: 1px solid #799b9e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .form-control {
+    padding: 9px 9px 9px 26px;
+  }
+}
+
+.customized-consultation form .form-control::-webkit-input-placeholder {
+  color: #20585e;
+}
+
+.customized-consultation form .form-control:-ms-input-placeholder {
+  color: #20585e;
+}
+
+.customized-consultation form .form-control::-ms-input-placeholder {
+  color: #20585e;
+}
+
+.customized-consultation form .form-control::placeholder {
+  color: #20585e;
+}
+
+.customized-consultation form .form-control:focus {
+  border-color: #799b9e;
+  -webkit-box-shadow: 0 0 4px #799b9e;
+          box-shadow: 0 0 4px #799b9e;
+}
+
+.customized-consultation form .form-check {
+  min-height: 2.5rem;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .form-check {
+    padding-left: 1.5em;
+  }
+}
+
+.customized-consultation form .form-check .form-check-input {
+  height: 28px;
+  width: 28px;
+  border: 1px solid #799b9e;
+  border-radius: 0.4em;
+  margin-top: 0;
+  background-size: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .form-check .form-check-input {
+    height: 18px;
+    width: 18px;
+    border-radius: 0.3em;
+  }
+}
+
+.customized-consultation form .form-check .form-check-input:focus {
+  border-color: #799b9e;
+  -webkit-box-shadow: 0 0 4px #799b9e;
+          box-shadow: 0 0 4px #799b9e;
+}
+
+.customized-consultation form .form-check .form-check-input:checked {
+  background-color: #FFFFFF !important;
+  border: 1px solid #799b9e;
+}
+
+.customized-consultation form .form-check .form-check-input:checked[type="checkbox"] {
+  background-image: url(images/checked.svg) !important;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .form-check .form-check-input:checked[type="checkbox"] {
+    background-image: url(images/checked-mobile.svg) !important;
+  }
+}
+
+.customized-consultation form .form-check .form-check-label {
+  color: #000000;
+  font-size: 1.125rem;
+  margin-left: 10px;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .form-check .form-check-label {
+    font-size: 0.75rem;
+  }
+}
+
+.customized-consultation form .btn {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.728rem;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  background-color: #20585e;
+  border-radius: 30px;
+  width: 231px;
+  height: 44px;
+}
+
+@media (max-width: 991.98px) {
+  .customized-consultation form .btn {
+    font-size: 1rem;
+    padding: 0.3rem 1.4rem;
+    height: auto;
+    width: auto;
+  }
+}
+
+.customized-consultation form .btn:hover {
+  color: #FFFFFF;
+}
+
+.btn-check:focus + .customized-consultation form .btn, .customized-consultation form .btn:focus {
+  color: #FFFFFF;
+}
+
+.btn-check:checked + .customized-consultation form .btn,
+.btn-check:active + .customized-consultation form .btn, .customized-consultation form .btn:active, .customized-consultation form .btn.active {
+  color: #FFFFFF;
+}
+
+.btn-check:checked + .customized-consultation form .btn:focus,
+.btn-check:active + .customized-consultation form .btn:focus, .customized-consultation form .btn:active:focus, .customized-consultation form .btn.active:focus {
+  color: #FFFFFF;
 }
 
 .header .carousel-item {
