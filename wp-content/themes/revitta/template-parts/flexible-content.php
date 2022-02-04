@@ -239,21 +239,21 @@
                     <li>General neurology</li>
                     <li>General neurology</li>
                     <li>General neurology</li>
+                    <li>Nerve Conduction Study</li>
                     <li>General neurology</li>
                     <li>General neurology</li>
                     <li>General neurology</li>
-                    <li>General neurology</li>
-                    <li>General neurology</li>
+                    <li>Nerve Conduction Study</li>
                   </ul>
             </div>
             <div class="col">
               <ul class="list-unstyled">
                 <li>General neurology</li>
+                <li>Nerve Conduction Study</li>
                 <li>General neurology</li>
                 <li>General neurology</li>
                 <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
+                <li>Nerve Conduction Study</li>
                 <li>General neurology</li>
                 <li>General neurology</li>
                </ul>
@@ -318,7 +318,7 @@
   <div class="container pt-lg-5 pb-5"> 
     <h2 class="pt-4 pb-3 mt-1 text-uppercase text-center">Customized consultation</h2>
     <p class="text-black text-center my-0 mx-auto">Reserve your customized consultation</p>
-    <form class="needs-validation mt-5 pt-3" novalidate>
+    <form class="needs-validation mt-lg-5 mt-4 pt-lg-3" novalidate>
       <div class="row">
         <div class="col-md-6 pe-lg-4">
            <div class="mb-4">

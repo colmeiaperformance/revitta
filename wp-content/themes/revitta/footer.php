@@ -34,7 +34,7 @@
         </div>
 
         <div class="col-lg-4 order-1 order-lg-2 infos">
-          <img class="d-block mx-auto mb-2 mb-lg-4" src="<?php echo get_template_directory_uri() . '/images/logo-footer.svg' ?>" alt="Logo" >
+          <img class="d-block mx-auto mb-3 mb-lg-4" src="<?php echo get_template_directory_uri() . '/images/logo-footer.svg' ?>" alt="Logo" >
           <ul class="list-unstyled">
             <li><p><i class="bi bi-geo-alt-fill"></i>  1290 Weston Road, Suit 310, Weston, FL 33326</p></li>
             <li><p><i class="bi bi-telephone-fill"></i> 333-333-3333</p></li>
