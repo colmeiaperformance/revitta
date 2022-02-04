@@ -214,40 +214,40 @@
   </div>
 </section>
 
-<section class="candela">
-  <div class="container"> 
-   <h2 class="pb-2 text-center">Clinical Solutions</h2>
+<section class="clinical-solutions">
+  <div class="container pt-lg-5 pb-5"> 
+   <h2 class="pt-5 pt-lg-2 pb-3 text-uppercase text-center">Clinical Solutions</h2>
     <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="row">
-              <div class="col-md-6">
+        <div class="row align-items-lg-center justify-content-lg-center">
+          <div class="col-lg-8">
+            <div class="row align-items-lg-center justify-content-lg-center">
+              <div class="col-lg-5">
               <div class="icon-square flex-shrink-0 me-3">
-                <img class="d-block mx-auto mb-4 img-fluid" src="<?php echo get_template_directory_uri() . '/images/Dr-Bashar-Mohsen.svg' ?>" alt="About us" >
+                <img class="d-block mx-auto mb-4 img-fluid" src="<?php echo get_template_directory_uri() . '/images/dr-1.png' ?>" alt="About us" >
               </div>  
             </div>
-            <div class="col-md-6">
-              <p>Dr. Bashar Mohsen has been a practicing physician for over fifteen years. Dr. Mohsen completed his residencies at New York Medical College, Metropolitan Hospital and Temple University Hospital. He also completed a fellowship at Saint Louis University Health Sciences Center.</p>
+            <div class="col-lg-7 ps-0">
+              <p class="text-center text-lg-start"><strong>Dr. Bashar Mohsen</strong> has been a practicing physician for over fifteen years. Dr. Mohsen completed his residencies at New York Medical College, Metropolitan Hospital and Temple University Hospital. He also completed a fellowship at Saint Louis University Health Sciences Center.</p>
             </div>
             </div>
           </div>
-          <div class="col-lg-5"> 
-              <h2><bold>Procedures and Conditions</bold> treated</h2>
+          <div class="col-lg-4 pe-lg-0"> 
+              <h3 class="text-uppercase text-center text-lg-start"><strong>Procedures and Conditions</strong> treated</h3>
               <div class="row">
-                 <div class="col-sm-6">
-              <ul>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-                <li>General neurology</li>
-              </ul>
+                 <div class="col">
+                  <ul class="list-unstyled">
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                    <li>General neurology</li>
+                  </ul>
             </div>
-            <div class="col-sm-6">
-              <ul>
+            <div class="col">
+              <ul class="list-unstyled">
                 <li>General neurology</li>
                 <li>General neurology</li>
                 <li>General neurology</li>
