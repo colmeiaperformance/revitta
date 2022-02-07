@@ -1,6 +1,12 @@
 .navbar {
   background-color: transparent;
   
+  .navbar-toggler {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
   &-margin {
     margin-top: 65px;
     @media (max-width: 991.98px) {
