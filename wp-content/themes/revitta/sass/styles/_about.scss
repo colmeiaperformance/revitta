@@ -1,4 +1,34 @@
 .about {
+	position: relative;
+	&::before{
+		content: '';
+		background: url(images/about-us-bg.png) center bottom no-repeat;
+		height: 100%;
+		width: 212px;
+		position: absolute;
+		z-index: 1111;
+		top: 50px;
+		@media (max-width: 1200px) {
+			display:none;
+		}
+	}
+	.content {
+		position: relative;
+		&::before{
+			content: '';
+			background: url(images/about-us-elipse.png) right top no-repeat;
+			height: 108px;
+			width: 100%;
+			position: absolute;
+			z-index: 1111;
+			top: -175px;
+			bottom: 0;
+			left: -75px;
+			@media (max-width: 1200px) {
+				display:none;
+			}
+		}
+	}
 	p{
 		font-family: Source Sans Pro;
 		font-style: normal;
@@ -12,27 +42,27 @@
 	.content{
 		p{
 			max-width: 75%;
-
+			
 			@media (max-width: 1200px){
 				max-width: 100%;
 			}
 		}
 	}
-    h2{
-        color: $color-primary-dark;
-        font-size: 3.5rem;
-        font-weight: 200;
-        letter-spacing: 6px;
-        margin-bottom: 1.563rem;
+	h2{
+		color: $color-primary-dark;
+		font-size: 3.5rem;
+		font-weight: 200;
+		letter-spacing: 6px;
+		margin-bottom: 1.563rem;
 		position: relative;
-
+		
 		@media (max-width: 1200px) { 
 			&::after{
 				content: '';
-      			position: absolute;
+				position: absolute;
 				border-radius: 20px;
-      			background: $color-primary-light;
-      			bottom: 0;
+				background: $color-primary-light;
+				bottom: 0;
 				height: 12px;
 				width: 110px;
 				left: calc(50% - 110px /2 );
@@ -48,9 +78,9 @@
 				left: calc(50% - 55px /2 );
 			}
 		}
-    }
+	}
 	.lead {
-        position: relative;
+		position: relative;
 		&::before {
 			content: '';
 			position: absolute;
@@ -63,9 +93,9 @@
 		}
 		@media (max-width: 1200px) { 
 			&::before{
-			  display: none;
+				display: none;
 			}
-		  }
+		}
 	}
-    
+	
 }
