@@ -79,6 +79,48 @@ body {
 /************************************/
 /********* Revitta STYLES *************/
 /************************************/
+.about {
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  background: url(images/about-us-bg.png) center bottom no-repeat;
+  height: 100%;
+  width: 212px;
+  position: absolute;
+  z-index: 1111;
+  top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .about::before {
+    display: none;
+  }
+}
+
+.about .content {
+  position: relative;
+}
+
+.about .content::before {
+  content: '';
+  background: url(images/about-us-elipse.png) right top no-repeat;
+  height: 108px;
+  width: 100%;
+  position: absolute;
+  z-index: 1111;
+  top: -175px;
+  bottom: 0;
+  left: -75px;
+}
+
+@media (max-width: 1200px) {
+  .about .content::before {
+    display: none;
+  }
+}
+
 .about p {
   font-family: Source Sans Pro;
   font-style: normal;
