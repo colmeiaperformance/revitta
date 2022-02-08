@@ -39,9 +39,23 @@
   p {
     width: 311px;
     font-weight: 300;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 28px;
     color: $color-white;
+    position: relative;
+    &::before{
+      content: '';
+      background: url(images/clinical-solutions-bg.png) center center no-repeat;
+      height: 361px;
+      width: 226px;
+      position: absolute;
+      top: -48px;
+      left: calc(100% - 226px / 4);
+      z-index: 111;
+      @media (max-width: 1200px) {
+        display:none;
+      }
+    }
     strong {
       font-weight: 600;
     }

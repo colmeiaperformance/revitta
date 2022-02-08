@@ -1,5 +1,22 @@
 .services {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(140, 140, 140, 0.05) 100%);
+  position: relative;
+  &::before{
+    content: '';
+    background: url(images/forma-1.png) top right no-repeat;
+    opacity: 0.04;
+    transform: rotate(45deg);
+    height: 267px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: calc(-100% + 300px);
+    z-index: 111;
+    left: 10%;
+    @media (max-width: 991.98px) {
+      display:none;
+    }
+  }
   
   h2 {
     color: $color-primary-dark;
