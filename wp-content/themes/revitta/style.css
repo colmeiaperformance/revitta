@@ -201,6 +201,25 @@ body {
   }
 }
 
+.about-candela {
+  position: relative;
+}
+
+.about-candela::before {
+  content: '';
+  background: url(images/more-about-candela-bg.png) top center no-repeat;
+  height: 100%;
+  width: 412px;
+  position: absolute;
+  top: 50px;
+}
+
+@media (max-width: 991.98px) {
+  .about-candela::before {
+    display: none;
+  }
+}
+
 .about-candela h2 {
   color: #c8af88;
   font-size: 3.5rem;
