@@ -360,24 +360,24 @@ body {
   }
 }
 
-.about-candela .card .card-body a {
+.about-candela .card .card-body a, .about-candela .card .card-body p {
   line-height: 1.414rem;
   font-weight: 200;
   font-size: 1.125rem;
 }
 
 @media (max-width: 576px) {
-  .about-candela .card .card-body a {
+  .about-candela .card .card-body a, .about-candela .card .card-body p {
     line-height: 1.414rem;
     font-size: 1rem;
   }
 }
 
-.about-candela .card .card-body ahover {
+.about-candela .card .card-body ahover, .about-candela .card .card-body phover {
   opacity: 0.8;
 }
 
-.about-candela .card .card-body a strong {
+.about-candela .card .card-body a strong, .about-candela .card .card-body p strong {
   color: #a37a39;
   font-weight: 600;
 }
