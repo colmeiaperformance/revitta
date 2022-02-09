@@ -1175,6 +1175,10 @@ footer .copyright .float-end a {
   }
 }
 
+.service-page .about-candela::before {
+  display: none;
+}
+
 .service-page .about-candela .card {
   -webkit-box-shadow: none;
           box-shadow: none;
