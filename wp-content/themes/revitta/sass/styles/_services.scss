@@ -93,6 +93,7 @@
   }
   
   .col {
+    position: relative;
     &:hover {
       .icon-square {
         border-color: $color-primary-dark;

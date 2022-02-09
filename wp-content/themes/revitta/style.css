@@ -1369,6 +1369,10 @@ footer .copyright .float-end a {
   color: #FFFFFF;
 }
 
+.services .col {
+  position: relative;
+}
+
 .services .col:hover .icon-square {
   border-color: #20585e;
 }
