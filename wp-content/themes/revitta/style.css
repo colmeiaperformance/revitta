@@ -549,6 +549,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.875rem;
   width: 70%;
+  text-align: left;
 }
 
 @media (max-width: 991.98px) {
@@ -557,6 +558,7 @@ body {
     margin-bottom: 1.2rem;
     width: auto;
     line-height: 1.2rem;
+    text-align: center;
   }
 }
 
