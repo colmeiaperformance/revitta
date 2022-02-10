@@ -28,47 +28,47 @@ body {
 }
 
 .background-green-medium {
-  background-color: #4d797e !important;
+  background-color: #4d797e;
 }
 
 .background-green-light {
-  background-color: #799b9e !important;
+  background-color: #799b9e;
 }
 
 .background-mustard-dark {
-  background-color: #a37a39 !important;
+  background-color: #a37a39;
 }
 
 .background-mustard-medium {
-  background-color: #b59561 !important;
+  background-color: #b59561;
 }
 
 .background-mustard-light {
-  background-color: #c8af88 !important;
+  background-color: #c8af88;
 }
 
 .background-black-secondary {
-  background-color: #0f0f0f !important;
+  background-color: #0f0f0f;
 }
 
 .background-off-white {
-  background-color: #e4ece3 !important;
+  background-color: #e4ece3;
 }
 
 .background-grey-medium {
-  background-color: #9b9b9b !important;
+  background-color: #9b9b9b;
 }
 
 .background-grey-light {
-  background-color: #c9c9c9 !important;
+  background-color: #c9c9c9;
 }
 
 .background-black {
-  background-color: #000000 !important;
+  background-color: #000000;
 }
 
 .background-white {
-  background-color: #FFFFFF !important;
+  background-color: #FFFFFF;
 }
 
 /*
@@ -709,21 +709,29 @@ body {
 }
 
 .customized-consultation form .btn:hover {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:focus + .customized-consultation form .btn, .customized-consultation form .btn:focus {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:checked + .customized-consultation form .btn,
 .btn-check:active + .customized-consultation form .btn, .customized-consultation form .btn:active, .customized-consultation form .btn.active {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:checked + .customized-consultation form .btn:focus,
 .btn-check:active + .customized-consultation form .btn:focus, .customized-consultation form .btn:active:focus, .customized-consultation form .btn.active:focus {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 footer p {
@@ -908,6 +916,7 @@ footer .copyright .float-end a {
   border-radius: 30px;
   line-height: 1.2;
   font-size: 1.375rem;
+  background-color: #a37a39;
 }
 
 @media (max-width: 991.98px) {
@@ -915,6 +924,28 @@ footer .copyright .float-end a {
     font-size: 0.8rem;
     padding: 0.5rem 1rem;
   }
+}
+
+.header .carousel-item .carousel-caption .btn:hover {
+  opacity: 1;
+  background-color: #c8af88;
+}
+
+.btn-check:focus + .header .carousel-item .carousel-caption .btn, .header .carousel-item .carousel-caption .btn:focus {
+  opacity: 1;
+  background-color: #c8af88;
+}
+
+.btn-check:checked + .header .carousel-item .carousel-caption .btn,
+.btn-check:active + .header .carousel-item .carousel-caption .btn, .header .carousel-item .carousel-caption .btn:active, .header .carousel-item .carousel-caption .btn.active {
+  opacity: 1;
+  background-color: #c8af88;
+}
+
+.btn-check:checked + .header .carousel-item .carousel-caption .btn:focus,
+.btn-check:active + .header .carousel-item .carousel-caption .btn:focus, .header .carousel-item .carousel-caption .btn:active:focus, .header .carousel-item .carousel-caption .btn.active:focus {
+  opacity: 1;
+  background-color: #c8af88;
 }
 
 .header img.bd-placeholder-img {
@@ -937,6 +968,8 @@ footer .copyright .float-end a {
 
 .navbar {
   background-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-toggler:focus {
@@ -1358,21 +1391,29 @@ footer .copyright .float-end a {
 }
 
 .services .btn:hover {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:focus + .services .btn, .services .btn:focus {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:checked + .services .btn,
 .btn-check:active + .services .btn, .services .btn:active, .services .btn.active {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .btn-check:checked + .services .btn:focus,
 .btn-check:active + .services .btn:focus, .services .btn:active:focus, .services .btn.active:focus {
+  opacity: 1;
   color: #FFFFFF;
+  background-color: #a37a39;
 }
 
 .services .col {
@@ -1494,6 +1535,26 @@ footer .copyright .float-end a {
   background-image: url(images/icon-next.svg);
 }
 
+.testmonials .carousel-control-prev:hover .carousel-control-prev-icon,
+.testmonials .carousel-control-next:hover .carousel-control-prev-icon {
+  background-image: url(images/icon-prev-hover.svg);
+}
+
+.testmonials .carousel-control-prev:hover .carousel-control-next-icon,
+.testmonials .carousel-control-next:hover .carousel-control-next-icon {
+  background-image: url(images/icon-next-hover.svg);
+}
+
+.testmonials .carousel-control-prev:focus .carousel-control-prev-icon,
+.testmonials .carousel-control-next:focus .carousel-control-prev-icon {
+  background-image: url(images/icon-prev-hover.svg);
+}
+
+.testmonials .carousel-control-prev:focus .carousel-control-next-icon,
+.testmonials .carousel-control-next:focus .carousel-control-next-icon {
+  background-image: url(images/icon-next-hover.svg);
+}
+
 @media (max-width: 991.98px) {
   .testmonials .carousel-control-prev-icon, .testmonials .carousel-control-next-icon {
     height: 20.17px;
@@ -1573,6 +1634,8 @@ footer .copyright .float-end a {
 .topbar {
   background: #ffffff2e;
   height: 50px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .topbar p {
@@ -1598,6 +1661,8 @@ footer .copyright .float-end a {
 /************************************/
 .btn {
   border: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {

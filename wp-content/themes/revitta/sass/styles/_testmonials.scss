@@ -10,6 +10,27 @@
   .carousel-control-next-icon {
     background-image: url(images/icon-next.svg);
   }
+  .carousel-control-prev,
+  .carousel-control-next {
+    &:hover {
+      .carousel-control-prev-icon {
+        background-image: url(images/icon-prev-hover.svg);
+      }
+      
+      .carousel-control-next-icon {
+        background-image: url(images/icon-next-hover.svg);
+      }
+    }
+    &:focus {
+      .carousel-control-prev-icon {
+        background-image: url(images/icon-prev-hover.svg);
+      }
+      
+      .carousel-control-next-icon {
+        background-image: url(images/icon-next-hover.svg);
+      }
+    }
+  }
   
   @media (max-width: 991.98px) { 
     .carousel-control-prev-icon , .carousel-control-next-icon  {
