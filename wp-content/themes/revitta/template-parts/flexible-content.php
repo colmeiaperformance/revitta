@@ -55,12 +55,12 @@ if( have_rows('content') ):
     <p class="text-black text-center my-0 mx-auto"><?php echo $os_description; ?></p>
     <?php endif; ?>
 
-    <div class="row g-4 g-lg-5 py-5 row-cols-1 row-cols-lg-3">
+    <div class="row services-list g-4 g-lg-5 py-5 row-cols-1 row-cols-lg-3">
 
       <?php
       foreach ($os_service as $os_s) { ?>
 
-      <div class="col d-flex align-items-end">
+      <div class="col col-service">
         <div class="icon-square flex-shrink-0 me-3 rounded-circle border-5">
           <a href="<?php if ($os_s['os_service_url']) { echo $os_s['os_service_url']; } ?>">
             <img class="bi rounded-circle"
@@ -81,15 +81,16 @@ if( have_rows('content') ):
 
       <?php }
       ?>
-
     </div>
+
     <?php if( $os_button_text ) { ?>
     <div class="text-center mb-3">
-      <a href="<?php echo $os_button_url; ?>" class="btn text-uppercase"><?php echo $os_button_text; ?></a>
+      <a href="<?php echo $os_button_url; ?>" id="btn-services" class="btn text-uppercase"><?php echo $os_button_text; ?></a>
     </div>
     <?php }
     ?>
   </div>
+  <button id="loadmore"><i>+</i> Show<br> More</button>
 </section>
 
 <?php

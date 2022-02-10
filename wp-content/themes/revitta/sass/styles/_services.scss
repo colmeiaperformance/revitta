@@ -7,14 +7,67 @@
     opacity: 0.04;
     transform: rotate(45deg);
     height: 267px;
-    width: 100%;
+    width: 119px;
     position: absolute;
     bottom: 0;
-    top: calc(-100% + 300px);
     z-index: 111;
-    left: 10%;
+    left: calc(100% - 149px);
+    bottom: calc(100% - 200px);
     @media (max-width: 991.98px) {
       display:none;
+    }
+  }
+  
+  .col-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 991.98px) {
+      display: none;
+      &:nth-child(1) {
+        display: flex;
+      }
+      &:nth-child(2) {
+        display: flex;
+      }
+      &:nth-child(3) {
+        display: flex;
+      }
+      &:nth-child(4) {
+        display: flex;
+      }
+    }
+  }
+  
+  #loadmore {
+    display: none;
+    width: 100%;
+    color: #799B9E;
+    border: 0;
+    height: 154px;
+    position: relative;
+    z-index: 111;
+    margin-top: -264px;
+    padding-top: 100px;
+    background: url(images/sombra-servicos-mobile.svg) center center repeat-x;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $color-primary-dark;
+    align-items: center;
+    justify-content: center;
+    i {
+      margin-right: 10px;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 18px;
+      color: $color-primary-light;
+    }
+    @media (max-width: 991.98px)  {
+      display: flex;
     }
   }
   
@@ -97,6 +150,12 @@
         color: $color-white;
         background-color: $color-secondary-dark;
       }
+    }
+  }
+  
+  #btn-services {
+    @media (max-width: 991.98px) {
+      display: none;
     }
   }
   
