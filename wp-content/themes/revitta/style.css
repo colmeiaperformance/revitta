@@ -426,30 +426,34 @@ body {
   }
 }
 
-.clinical-solutions p {
-  width: 311px;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
-  color: #FFFFFF;
+.clinical-solutions .col-lg-7 {
   position: relative;
 }
 
-.clinical-solutions p::before {
+.clinical-solutions .col-lg-7::before {
   content: '';
   background: url(images/clinical-solutions-bg.png) center center no-repeat;
   height: 361px;
   width: 226px;
   position: absolute;
   top: -48px;
-  left: calc(100% - 226px / 4);
+  left: calc(100% - 190px);
   z-index: 111;
 }
 
 @media (max-width: 1200px) {
-  .clinical-solutions p::before {
+  .clinical-solutions .col-lg-7::before {
     display: none;
   }
+}
+
+.clinical-solutions p {
+  width: 311px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+  position: relative;
 }
 
 .clinical-solutions p strong {
@@ -489,8 +493,8 @@ body {
 
 .clinical-solutions ul li {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 33px;
   color: #FFFFFF;
 }
 
