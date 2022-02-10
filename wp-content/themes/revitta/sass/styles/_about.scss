@@ -12,22 +12,22 @@
 			display:none;
 		}
 	}
+	&::after{
+		content: '';
+		background: url(images/about-us-elipse.png) right top no-repeat;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: 1111;
+		top: 40px;
+		bottom: 0;
+		left: -130px;
+		@media (max-width: 1200px) {
+			display:none;
+		}
+	}
 	.content {
 		position: relative;
-		&::before{
-			content: '';
-			background: url(images/about-us-elipse.png) right top no-repeat;
-			height: 108px;
-			width: 100%;
-			position: absolute;
-			z-index: 1111;
-			top: -175px;
-			bottom: 0;
-			left: -75px;
-			@media (max-width: 1200px) {
-				display:none;
-			}
-		}
 	}
 	p{
 		font-family: Source Sans Pro;
