@@ -1785,4 +1785,9 @@ footer .copyright .float-end a {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+
+.carousel {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
 /*# sourceMappingURL=style.css.map */
