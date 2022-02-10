@@ -99,26 +99,26 @@ body {
   }
 }
 
-.about .content {
-  position: relative;
-}
-
-.about .content::before {
+.about::after {
   content: '';
   background: url(images/about-us-elipse.png) right top no-repeat;
-  height: 108px;
+  height: 100%;
   width: 100%;
   position: absolute;
   z-index: 1111;
-  top: -175px;
+  top: 40px;
   bottom: 0;
-  left: -75px;
+  left: -130px;
 }
 
 @media (max-width: 1200px) {
-  .about .content::before {
+  .about::after {
     display: none;
   }
+}
+
+.about .content {
+  position: relative;
 }
 
 .about p {
