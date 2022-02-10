@@ -352,6 +352,7 @@ body {
   padding: 1.25rem;
   border-radius: 0px 0px 10px 10px;
   min-height: 195px;
+  display: block;
 }
 
 @media (max-width: 991.98px) {
@@ -360,24 +361,26 @@ body {
   }
 }
 
-.about-candela .card .card-body a, .about-candela .card .card-body p {
+.about-candela .card .card-body p {
   line-height: 1.414rem;
   font-weight: 200;
   font-size: 1.125rem;
+  width: 100%;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
-  .about-candela .card .card-body a, .about-candela .card .card-body p {
+  .about-candela .card .card-body p {
     line-height: 1.414rem;
     font-size: 1rem;
   }
 }
 
-.about-candela .card .card-body ahover, .about-candela .card .card-body phover {
+.about-candela .card .card-body phover {
   opacity: 0.8;
 }
 
-.about-candela .card .card-body a strong, .about-candela .card .card-body p strong {
+.about-candela .card .card-body p strong {
   color: #a37a39;
   font-weight: 600;
 }
@@ -968,6 +971,10 @@ footer .copyright .float-end a {
   .header img.bd-placeholder-img {
     min-height: 400px;
   }
+}
+
+#cookie-law-info-bar #wt-cli-accept-all-btn {
+  background-color: #20585e !important;
 }
 
 .navbar {
