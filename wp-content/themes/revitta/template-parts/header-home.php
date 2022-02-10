@@ -1,35 +1,58 @@
-  <div class="topbar fixed-top text-white d-flex align-items-center">
-    <div class="container">
-      <div class="d-flex">
-        <p class="m-0 me-2 me-lg-3"><i class="bi bi-telephone-fill"></i> 333-333-3333</p>  
-        <p class="m-0"><i class="bi bi-geo-alt-fill"></i> 1290 Weston Road, Suit 310, Weston, FL 33326</p>
+<section class="header">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div> -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>"
+          alt="Logo">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
+            <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and
+              out, with excellence.</p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>"
+          alt="Logo">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
+            <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and
+              out, with excellence.</p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" src="<?php echo get_template_directory_uri() . '/images/header.svg' ?>"
+          alt="Logo">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1>We're here to <span>help you</span> find your most precious gift: <strong>yourself</strong>!</h1>
+            <p>The union of medicine and cosmetics. Our professionals have a goal: take care of our patients, inside and
+              out, with excellence.</p>
+            <p><a class="btn btn-lg text-uppercase background-mustard-dark " href="#">Book your consultation</a></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-<nav class="navbar navbar-expand-lg fixed-top navbar-margin" aria-label="Main navigation">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="<?php echo get_template_directory_uri() . '/images/logo-topo.svg' ?>" alt="Logo">
-    </a>
-    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-      <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="28" height="4" rx="2" fill="white"/>
-          <rect y="8" width="28" height="4" rx="2" fill="white"/>
-          <rect y="16" width="28" height="4" rx="2" fill="white"/>
-      </svg>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-           <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu',
-                'container' => false,
-                'menu_class' => '',
-                'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav ms-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
-                'depth' => 2,
-                'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
-    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</nav>
+</section>
