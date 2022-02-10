@@ -1343,14 +1343,14 @@ footer .copyright .float-end a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media (max-width: 991.98px) {
   .services .col-service {
     display: none;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
   .services .col-service:nth-child(1) {
     display: -webkit-box;

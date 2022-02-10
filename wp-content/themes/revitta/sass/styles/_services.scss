@@ -21,9 +21,9 @@
   .col-service {
     display: flex;
     align-items: center;
-    justify-content: center;
     @media (max-width: 991.98px) {
       display: none;
+      justify-content: left;
       &:nth-child(1) {
         display: flex;
       }
