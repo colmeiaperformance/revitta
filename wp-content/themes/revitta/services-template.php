@@ -4,6 +4,7 @@
   */
   ?>
 <?php get_header(); ?>
+<?php get_template_part( 'template-parts/topbar-navbar' ); ?>
 <main class="service-page">
   <?php get_template_part( 'template-parts/header-service' ); ?>
   <?php get_template_part( 'template-parts/flexible-content' ); ?>
