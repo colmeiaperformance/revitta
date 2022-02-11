@@ -8,7 +8,7 @@
 </div>
 <nav class="navbar navbar-expand-lg fixed-top navbar-margin" aria-label="Main navigation">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src="<?php echo get_template_directory_uri() . '/images/logo-topo.svg' ?>" alt="Logo">
     </a>
     <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">

@@ -11,7 +11,7 @@ if( have_rows('content') ):
       ?>
 
 <!-- Section About -->
-<section class="about"
+<section id="about-us" class="about"
   style="background-color:<?php if ( $au_colors['au_bg_color'] ) { echo $au_colors['au_bg_color']; } else { echo 'transparent'; }  ?>;">
   <div class="container px-4 py-5 my-5 text-center">
     <div class="row">
@@ -44,7 +44,7 @@ if( have_rows('content') ):
           $os_button_url = get_sub_field('os_button_url');
           $os_colors = get_sub_field('os_colors'); ?>
 
-<section class="services"
+<section id="our-services" class="services"
   style="background-color:<?php if ( $os_colors['os_bg_color'] ) { echo $os_colors['os_bg_color']; } else { echo 'transparent'; }  ?>;">
   <div class="container pt-lg-5 pb-5">
     <?php if ($os_title) : ?>
@@ -102,7 +102,7 @@ if( have_rows('content') ):
           
           ?>
 
-<section class="about-candela">
+<section id="about-candela" class="about-candela">
   <div class="container pt-lg-5 pb-5">
     <?php
     if ($mac_title) { ?>
@@ -158,7 +158,7 @@ if( have_rows('content') ):
           
           ?>
 
-<section class="clinical-solutions"
+<section id="clinical-solutions" class="clinical-solutions"
   style="background-color:<?php if ( $cs_colors['cs_bg_color'] ) { echo $cs_colors['cs_bg_color']; } else { echo 'transparent'; }  ?>;">
   <div class="container pt-lg-5 pb-5">
     <?php if ($cs_title) { ?>
@@ -230,7 +230,7 @@ if( have_rows('content') ):
           $t_value = 0;
           ?>
 
-<section class="testmonials"
+<section id="reviews" class="testmonials"
   <?php if ($t_colors['t_bg_color']) { echo 'style="background-color:' . $t_colors['t_bg_color'] . '";'; } ?>>
   <div class="container">
     <div id="testmonials" class="carousel slide py-4" data-bs-ride="carousel">
@@ -304,7 +304,7 @@ if( have_rows('content') ):
           $ccta_description = get_sub_field('ccta_description');
           $ccta_image = get_sub_field('ccta_image');
      ?>
-<section class="about-candela">
+<section id="about-candela" class="about-candela">
   <div class="card border-0 p-0 bg-transparent">
 
     <img class="card-img-top"
