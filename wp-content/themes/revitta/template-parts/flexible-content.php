@@ -52,7 +52,7 @@
 </section>
 
 <section class="about">
-  <div class="container px-4 py-5 my-5 text-center">
+  <div class="container my-lg-5 pb-5 text-center">
     <div class="row">
       <div class="col d-none d-xl-block">
         <img class="d-block mx-auto mb-4" src="<?php echo get_template_directory_uri() . '/images/about.svg' ?>" alt="About us" >
