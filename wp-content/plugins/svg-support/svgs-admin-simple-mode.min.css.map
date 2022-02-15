@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,cAAc,AAAC,CACd,OAAO,CAAE,IAAI,CACb",
+    "sources": [
+        "scss/svgs-admin-simple-mode.scss"
+    ],
+    "names": [],
+    "file": "svgs-admin-simple-mode.min.css"
+}
