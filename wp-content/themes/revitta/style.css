@@ -173,6 +173,11 @@ body {
     line-height: 1.8rem;
     letter-spacing: 3px;
   }
+  .about h2::after {
+    height: 6px;
+    width: 55px;
+    left: calc(50% - 55px /2);
+  }
 }
 
 .about .lead {
