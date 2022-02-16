@@ -89,7 +89,11 @@ footer {
     .float-end {
       a {
         color: $color-secondary-light;
-        font-weight: 800;
+        font-size: 24px;
+        display: inline;
+        position: fixed;
+        bottom: 0.8rem;
+        right: 1rem;
       }
     }
   }

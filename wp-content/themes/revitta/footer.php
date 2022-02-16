@@ -47,9 +47,9 @@
   <div class="copyright"> 
     <div class="text-center text-uppercase">
         <p>© 2022 revitta medical & aesthetic. All Rights Reserved.</p>
-        <p class="float-end">
+        <p class="float-end top">
           <a href="#">
-            <i class="bi bi-chevron-up"></i>
+            <i class="bi bi-arrow-up-circle-fill"></i>
           </a>
          </p> 
     </div>

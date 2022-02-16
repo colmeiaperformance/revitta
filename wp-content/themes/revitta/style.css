@@ -852,7 +852,11 @@ footer .copyright p {
 
 footer .copyright .float-end a {
   color: #c8af88;
-  font-weight: 800;
+  font-size: 24px;
+  display: inline;
+  position: fixed;
+  bottom: 0.8rem;
+  right: 1rem;
 }
 
 .header .carousel-item {
