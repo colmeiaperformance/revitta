@@ -88,8 +88,8 @@
 			width: 110px;
 			border-radius: 20px;
 			background: $color-secondary-light;
-			bottom: 125px;
-			left: 0;
+			top: -64px;
+			left: 16px;
 		}
 		@media (max-width: 1200px) { 
 			&::before{

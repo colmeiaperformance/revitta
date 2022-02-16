@@ -13,14 +13,14 @@ if( have_rows('content') ):
 <!-- Section About -->
 <section id="about-us" class="about"
   style="background-color:<?php if ( $au_colors['au_bg_color'] ) { echo $au_colors['au_bg_color']; } else { echo 'transparent'; }  ?>;">
-  <div class="container px-4 py-5 my-5 text-center">
+  <div class="container my-lg-5 pb-3 text-center">
     <div class="row">
       <div class="col d-none d-xl-block">
         <img class="d-block mx-auto mb-4"
           src="<?php if ($au_hightlight_image) { echo $au_hightlight_image; } else { echo get_template_directory_uri() . '/images/about.svg'; } ?>"
           alt="About us">
       </div>
-      <div class="content col-xl-6 mx-auto mt-auto mb-auto text-center text-xl-start ">
+      <div class="content col-xl-6 mx-auto mt-auto mb-auto text-center text-xl-start lead">
         <?php if ($au_title) { ?>
         <h2 class="d-xl-none pt-4 pb-3 mt-1 text-uppercase text-center"
           style="<?php if ($au_colors['au_highlight_color']) : $au_colors['au_highlight_color']; endif; ?>">
