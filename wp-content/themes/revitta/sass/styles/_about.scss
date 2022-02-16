@@ -72,11 +72,6 @@
 			font-size: 1.5rem;
 			line-height: 1.8rem;
 			letter-spacing: 3px;
-			&::after{
-				height: 6px;
-				width: 55px;
-				left: calc(50% - 55px /2 );
-			}
 		}
 	}
 	.lead {
