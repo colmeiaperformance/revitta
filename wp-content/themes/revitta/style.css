@@ -146,7 +146,7 @@ body {
 }
 
 .about h2 {
-  color: #20585e;
+  color: #a37a39;
   font-size: 3.5rem;
   font-weight: 200;
   letter-spacing: 6px;
@@ -159,7 +159,7 @@ body {
     content: '';
     position: absolute;
     border-radius: 20px;
-    background: #799b9e;
+    background: #c8af88;
     bottom: 0;
     height: 12px;
     width: 110px;
@@ -172,11 +172,6 @@ body {
     font-size: 1.5rem;
     line-height: 1.8rem;
     letter-spacing: 3px;
-  }
-  .about h2::after {
-    height: 6px;
-    width: 55px;
-    left: calc(50% - 55px /2);
   }
 }
 

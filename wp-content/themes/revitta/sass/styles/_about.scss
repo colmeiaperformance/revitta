@@ -49,7 +49,7 @@
 		}
 	}
 	h2{
-		color: $color-primary-dark;
+		color: $color-secondary-dark;
 		font-size: 3.5rem;
 		font-weight: 200;
 		letter-spacing: 6px;
@@ -61,7 +61,7 @@
 				content: '';
 				position: absolute;
 				border-radius: 20px;
-				background: $color-primary-light;
+				background: $color-secondary-light;
 				bottom: 0;
 				height: 12px;
 				width: 110px;
@@ -72,11 +72,6 @@
 			font-size: 1.5rem;
 			line-height: 1.8rem;
 			letter-spacing: 3px;
-			&::after{
-				height: 6px;
-				width: 55px;
-				left: calc(50% - 55px /2 );
-			}
 		}
 	}
 	.lead {
